@@ -44,9 +44,9 @@ z2 <- (x2 - mu) / SE
 prob_below_125 <- pnorm(z2)
 
 n3 <- 40
-SE <- sigma / sqrt(n3)
+SE2 <- sigma / sqrt(n3)
 
-percentile_90 <- qnorm(0.90, mu, SE)
+percentile_90 <- qnorm(0.90, mu, SE2)
 ```
 
 \#Problem4
